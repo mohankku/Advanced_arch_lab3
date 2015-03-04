@@ -1,0 +1,105 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DEFAULT_F	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	8;"	d
+DEFAULT_K0	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	4;"	d
+DEFAULT_K1	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	5;"	d
+DEFAULT_K2	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	6;"	d
+DEFAULT_R	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	7;"	d
+FIRST	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^enum cycle_half_t { FIRST, SECOND };$/;"	e	enum:cycle_half_t
+NUM_OP_TYPE	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    NUM_OP_TYPE$/;"	e	enum:Op_Type_Enum
+OP_ALU	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    OP_ALU,             \/\/ ALU(ADD\/ SUB\/ MUL\/ DIV) operaiton$/;"	e	enum:Op_Type_Enum
+OP_CBR	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    OP_CBR,             \/\/ Conditional Branch$/;"	e	enum:Op_Type_Enum
+OP_LD	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    OP_LD,              \/\/ load operation$/;"	e	enum:Op_Type_Enum
+OP_OTHER	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    OP_OTHER,           \/\/ Other Ops$/;"	e	enum:Op_Type_Enum
+OP_ST	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    OP_ST,              \/\/ store operation$/;"	e	enum:Op_Type_Enum
+Op_Type	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^} Op_Type;$/;"	t	typeref:enum:Op_Type_Enum
+Op_Type_Enum	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^typedef enum Op_Type_Enum{$/;"	g
+PROCSIM_H	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	2;"	d
+SECOND	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^enum cycle_half_t { FIRST, SECOND };$/;"	e	enum:cycle_half_t
+Trace_Rec	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^} Trace_Rec;$/;"	t	typeref:struct:Trace_Rec_Struct
+Trace_Rec_Struct	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^typedef struct Trace_Rec_Struct {$/;"	s
+_proc_inst_t	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^typedef struct _proc_inst_t$/;"	s
+_proc_stats_t	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^typedef struct _proc_stats_t$/;"	s
+all_instrs	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.cpp	/^std::vector<proc_inst_ptr_t> all_instrs;$/;"	v
+avg_disp_size	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    float avg_disp_size;$/;"	m	struct:_proc_stats_t
+avg_inst_retired	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    float avg_inst_retired;$/;"	m	struct:_proc_stats_t
+begin_dump	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint64_t begin_dump;$/;"	m	struct:proc_settings_t
+br_dir	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint8_t  br_dir;     \/\/ Branch Direction Taken \/ Not Taken$/;"	m	struct:Trace_Rec_Struct
+br_target	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint64_t br_target;  \/\/ Target Address of Branch$/;"	m	struct:Trace_Rec_Struct
+cc_read	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint8_t  cc_read;    \/\/ Conditional Code Read$/;"	m	struct:Trace_Rec_Struct
+cc_write	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint8_t  cc_write;   \/\/ Conditional Code Write$/;"	m	struct:Trace_Rec_Struct
+cdb	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.cpp	/^std::vector<proc_cdb_t> cdb;$/;"	v
+complete_proc	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.cpp	/^void complete_proc(proc_stats_t *p_stats) {$/;"	f
+cpu	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.cpp	/^proc_settings_t cpu;$/;"	v
+cycle_count	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    unsigned long cycle_count;$/;"	m	struct:_proc_stats_t
+cycle_dispatch	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint64_t cycle_dispatch;$/;"	m	struct:_proc_inst_t
+cycle_execute	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint64_t cycle_execute;$/;"	m	struct:_proc_inst_t
+cycle_fetch_decode	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint64_t cycle_fetch_decode;$/;"	m	struct:_proc_inst_t
+cycle_half_t	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^enum cycle_half_t { FIRST, SECOND };$/;"	g
+cycle_schedule	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint64_t cycle_schedule;$/;"	m	struct:_proc_inst_t
+cycle_status_update	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint64_t cycle_status_update;$/;"	m	struct:_proc_inst_t
+dest	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint8_t  dest;       \/\/ Destination$/;"	m	struct:Trace_Rec_Struct
+dest_needed	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint8_t  dest_needed; \/\/ $/;"	m	struct:Trace_Rec_Struct
+dest_reg	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    int32_t dest_reg;$/;"	m	struct:_proc_inst_t
+dest_tag	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint64_t dest_tag;$/;"	m	struct:_proc_inst_t
+dispatch	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.cpp	/^void dispatch(proc_stats_t* p_stats, const cycle_half_t &half) {$/;"	f
+dispatching_queue	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.cpp	/^std::deque<proc_inst_ptr_t> dispatching_queue;$/;"	v
+end_dump	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint64_t end_dump;$/;"	m	struct:proc_settings_t
+execute	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.cpp	/^void execute(proc_stats_t* p_stats, const cycle_half_t &half) {$/;"	f
+executed	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    bool executed;$/;"	m	struct:_proc_inst_t
+f	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint64_t f;$/;"	m	struct:proc_settings_t
+finished	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    bool finished;$/;"	m	struct:proc_settings_t
+fire	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    bool fire;$/;"	m	struct:_proc_inst_t
+fired	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    bool fired;$/;"	m	struct:_proc_inst_t
+free	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    bool free;$/;"	m	struct:proc_cdb_t
+fu_cnt	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.cpp	/^std::unordered_map<uint32_t, uint32_t> fu_cnt;$/;"	v
+id	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint32_t id;$/;"	m	struct:_proc_inst_t
+inFile	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim_driver.cpp	/^FILE* inFile;$/;"	v
+inst_addr	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint64_t inst_addr;  \/\/ instruction address $/;"	m	struct:Trace_Rec_Struct
+instr_fetch_and_decode	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.cpp	/^void instr_fetch_and_decode(proc_stats_t* p_stats, const cycle_half_t &half) {$/;"	f
+instruction_address	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint32_t instruction_address;$/;"	m	struct:_proc_inst_t
+main	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim_driver.cpp	/^int main(int argc, char* argv[]) {$/;"	f
+max_disp_size	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    unsigned long max_disp_size;$/;"	m	struct:_proc_stats_t
+mem_addr	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint64_t mem_addr;   \/\/ Load \/ Store Memory Address$/;"	m	struct:Trace_Rec_Struct
+mem_read	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint8_t  mem_read;   \/\/ Read$/;"	m	struct:Trace_Rec_Struct
+mem_write	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint8_t  mem_write;  \/\/ Write $/;"	m	struct:Trace_Rec_Struct
+op_code	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    int32_t op_code;$/;"	m	struct:_proc_inst_t
+op_type	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint8_t  op_type;    \/\/ optype$/;"	m	struct:Trace_Rec_Struct
+print_help_and_exit	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim_driver.cpp	/^void print_help_and_exit(void) {$/;"	f
+print_statistics	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim_driver.cpp	/^void print_statistics(proc_stats_t* p_stats) {$/;"	f
+proc_cdb_t	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^struct proc_cdb_t {$/;"	s
+proc_inst_ptr_t	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^typedef std::shared_ptr<proc_inst_t> proc_inst_ptr_t;$/;"	t
+proc_inst_t	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^} proc_inst_t;$/;"	t	typeref:struct:_proc_inst_t
+proc_settings_t	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    proc_settings_t() { }$/;"	f	struct:proc_settings_t
+proc_settings_t	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    proc_settings_t(uint64_t f, uint64_t begin_dump, uint64_t end_dump) $/;"	f	struct:proc_settings_t
+proc_settings_t	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^struct proc_settings_t {$/;"	s
+proc_stats_t	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^} proc_stats_t;$/;"	t	typeref:struct:_proc_stats_t
+read_cnt	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint64_t read_cnt;$/;"	m	struct:proc_settings_t
+read_finished	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    bool read_finished;$/;"	m	struct:proc_settings_t
+read_instruction	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim_driver.cpp	/^bool read_instruction(proc_inst_t* p_inst){$/;"	f
+ready	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    bool ready;$/;"	m	struct:register_info_t
+reg	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint32_t reg;$/;"	m	struct:proc_cdb_t
+register_file	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.cpp	/^std::unordered_map<uint32_t, register_info_t> register_file;$/;"	v
+register_info_t	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^struct register_info_t {$/;"	s
+reserved	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    bool reserved;$/;"	m	struct:_proc_inst_t
+retired_instruction	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    unsigned long retired_instruction;$/;"	m	struct:_proc_stats_t
+run_proc	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.cpp	/^void run_proc(proc_stats_t* p_stats) {   $/;"	f
+schedule	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.cpp	/^void schedule(proc_stats_t* p_stats, const cycle_half_t &half) {$/;"	f
+scheduling_queue	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.cpp	/^std::vector<proc_inst_ptr_t> scheduling_queue;$/;"	v
+scheduling_queue_limit	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.cpp	/^int scheduling_queue_limit;$/;"	v
+setup_proc	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.cpp	/^void setup_proc(proc_stats_t *p_stats, uint64_t r, uint64_t k0, uint64_t k1, uint64_t k2, uint64_t f, uint64_t begin_dump, uint64_t end_dump) {$/;"	f
+src1_needed	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint8_t  src1_needed; \/\/ Source Register 1 needed by this instruction$/;"	m	struct:Trace_Rec_Struct
+src1_reg	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint8_t  src1_reg;       \/\/ Source Register 1$/;"	m	struct:Trace_Rec_Struct
+src2_needed	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint8_t  src2_needed; \/\/ Source Register 2 needed to this instruction$/;"	m	struct:Trace_Rec_Struct
+src2_reg	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint8_t  src2_reg;       \/\/ Source Register 2$/;"	m	struct:Trace_Rec_Struct
+src_ready	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    bool src_ready[2];$/;"	m	struct:_proc_inst_t
+src_reg	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    int32_t src_reg[2];$/;"	m	struct:_proc_inst_t
+src_tag	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint64_t src_tag[2];$/;"	m	struct:_proc_inst_t
+state_update	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.cpp	/^void state_update(proc_stats_t* p_stats, const cycle_half_t &half) {$/;"	f
+sum_disp_size	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    double sum_disp_size;$/;"	m	struct:_proc_stats_t
+tag	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint32_t tag;$/;"	m	struct:proc_cdb_t
+tag	/home/mkumar68/Documents/advanced_architecture/Lab_3/lab3-src/procsim.hpp	/^    uint64_t tag;$/;"	m	struct:register_info_t
